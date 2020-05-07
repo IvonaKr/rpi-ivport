@@ -1,0 +1,7 @@
+<launch>
+
+
+  <!-- <node pkg = "paket" type = "init_ivport_node.py" name = "init_ivport_node" /> -->
+  <node pkg = "paket" type = "camera_publish_node.py" name ="camera_publish_node" output="screen" />
+
+</launch>
